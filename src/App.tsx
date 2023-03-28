@@ -1,12 +1,15 @@
-import MainTodos from './pages/MainTodos';
+import { RouterProvider } from "react-router-dom";
+import router from './routes';
+
 
 
 
 function App() {
+
+
+
    return (
-      <div className="App">
-         <MainTodos />
-      </div>
+      <RouterProvider router={ router }  />
    );
 }
 
