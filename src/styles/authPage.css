@@ -1,0 +1,20 @@
+
+
+
+.auth-container{
+   margin-top: 5rem;
+}
+
+.divErrorMessage{
+   align-items:center;
+   border-radius: 5px;
+   color: #333;
+   display: flex;
+   font-weight: 600;
+   height: 40px;
+   justify-content:center;
+   margin: 0px;
+}
+.divErrorMessageColor{   
+   background-color: #b90b0b88;
+}

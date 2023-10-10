@@ -1,0 +1,21 @@
+body {
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu",
+     "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+ 
+   background-color: #34375a;
+   color: #ede9f2;
+ }
+ 
+ code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+     monospace;
+ }
+ 
+ 
+ .button-primary:hover{
+    background-color: #2337ee;
+    color: #ede9f2;
+ }
