@@ -2,25 +2,21 @@
 .task-container{
    margin-top: 50px;
    padding: 0px;
-   
 }
 
 .add-task-card{
-   /* background-color: #d9e0ff; */
-   background-color: #e8ecff;
    margin: 50px 100px;
    color: #333;
-   height: 80px;
-
    display: flex;
    align-items:center;
    justify-content:center;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
 }
 
-.modal-task{
-   
-   background: 'red';
-
+.not-tasks{
+   margin: 50px 0px;
+   display: flex;
+   align-items:center;
+   justify-content:center;
+   color: #22243d;
+   font-size: x-large;
 }

@@ -42,6 +42,7 @@ const TaskItem = ({ task }: props) => {
             </IconButton>
          }
          disablePadding
+         sx={{borderBottom:'1px solid #34375a33'}}
       >
          <ListItemButton disableRipple>
             <ListItemIcon>

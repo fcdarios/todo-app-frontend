@@ -32,7 +32,8 @@ const AddTask = () => {
       <div className='add-task-card'>
          <Paper
             component="form"
-            sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: "80%" }}
+            sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: "60%" }}
+            className=''
          >
             <InputBase
                sx={{ ml: 1, flex: 1 }}

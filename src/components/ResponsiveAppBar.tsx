@@ -36,9 +36,6 @@ const ResponsiveAppBar = () => {
 
   const handleCloseNavMenu = ( event: React.MouseEvent<HTMLElement> ) => {
     setAnchorElNav(null);
-
-
-
     console.log("object",event);
   };
 
@@ -48,8 +45,8 @@ const ResponsiveAppBar = () => {
   };
 
   return (
-    <AppBar position="static" >
-      <Container maxWidth="xl" className='appBar'>
+    <AppBar position="static" sx={{background:'#232430'}}>
+      <Container maxWidth="lg" className='appBar'>
         <Toolbar disableGutters>
           <CenterFocusStrong sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
